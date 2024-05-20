@@ -1,0 +1,128 @@
+ion-content {
+    --ion-background-color: #cfc1ac; // Or whatever color you want
+    --padding-start: 0.5rem;
+    --padding-end: 0.5rem;
+}
+
+ion-tab-bar {
+    --background: #615c59;
+    --color-selected: #ff978c;
+    --color: #cfc1ac;
+}
+
+ion-toolbar {
+    --ion-toolbar-background: #615c59;
+    --ion-toolbar-color: #cfc1ac;
+
+    ion-button {
+        --ion-toolbar-background: transplant;
+        --ion-toolbar-color: transplant;
+        --color: #cfc1ac;
+        --box-shadow: none;
+    }
+}
+
+ion-list {
+    --ion-item-background: #cfc1ac;
+}
+
+.list-md {
+    --ion-item-background: none;
+}
+
+ion-item {
+    --background: #cfc1ac;
+    --color: black;
+}
+
+// ion-segment {
+//     --background: #e1d6c6;
+// }
+
+ion-segment-button {
+    --color: black;
+    --color-checked: white;
+    --indicator-color: #615c59;
+}
+
+ion-input {
+    --ion-color-step-50: none;
+    --ion-color-step-150: none;
+}
+
+.sc-ion-input-ios-h {
+    --border-width: 0.55px;
+    --border-color: #615c59;
+    --highlight-color-valid: blue;
+    --highlight-color-invalid: #e74c3c;
+}
+
+.sc-ion-input-md-h {
+    --border-width: 0.55px;
+    --border-color: #615c59;
+    --highlight-color-valid: blue;
+    --highlight-color-invalid: #e74c3c;
+}
+
+ion-button {
+    --border-radius: 8px;
+    --background: #e74c3c;
+    --background-activated: #615c59;
+    --color-activated: #e5ddd1;
+    // margin-top: 0;
+    // margin-bottom: 0;
+}
+
+ion-card {
+
+    --background: #e5ddd1;
+    --color: #3b3836;
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 15rem;
+    }
+
+    ion-card-title {
+        --color: #3b3836;
+    }
+
+    ion-card-subtitle {
+        --color: #3b3836;
+    }
+
+    ion-item {
+        --background: #e5ddd1;
+    }
+
+}
+
+ion-chip {
+    --background: #e74c3c;
+}
+
+ion-datetime {
+    margin: 1rem;
+    --background: #615c59;
+    --background-rgb: 255, 241, 242;
+
+    border-radius: 16px;
+    box-shadow: rgba(var(--ion-color-rose-rgb), 0.3) 0px 10px 15px -3px;
+}
+
+pwa-camera-modal-instance {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+// .camera-video {
+//     video {
+//         -webkit-transform: scaleX(-1);
+//         transform: scaleX(-1);
+//     }
+// }
+
+section {
+    transform: scaleX(-1);
+}

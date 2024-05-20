@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.hero {
+  height: auto;
+  min-height: 100%;
+
+}
+
+.title {
+  font-family: 'Righteous', cursive;
+  color: #3b3836;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0.5rem 0;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.qr_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  ion-card {
+    width: 20rem;
+    height: 20rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.swiper{
+
+
+    img{
+      width: 80vw; 
+      height: 30vh; 
+      object-fit: scale-down;
+    }
+    margin-bottom: 1.5rem;
+  }
+
+.imgText{
+  font-family: 'Righteous', cursive;
+  color: #e74c3c;
+  position: absolute;
+  z-index: 999;
+  bottom: -60px;
+  left: 0px;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.imgTextWide{
+  font-family: 'Righteous', cursive;
+  color: #e74c3c;
+  position: absolute;
+  z-index: 999;
+  bottom: -60px;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.padding {
+  padding: 0 0.8rem;
+}

@@ -1,0 +1,116 @@
+// .logo_container {
+//     width: 100vw;
+//     display: flex;
+// }
+
+.icon_container {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.icon {
+    width: 11rem;
+    height: 11rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.icon_square {
+    width: 11rem;
+    height: 11rem;
+    object-fit: cover;
+}
+
+.button {
+    height: 3rem;
+    --background: #e5ddd1;
+    --color: #3b3836;
+    --box-shadow: none;
+}
+
+.top_bar_buttons {
+    ion-button {
+        --background: transparent;
+        --color: #cfc1ac;
+        --box-shadow: none;
+    }
+}
+
+.menu_list {
+    margin-top: 0.5rem;
+    border: solid 1px #e5ddd1;
+    border-radius: 8px;
+    background-color: #e5ddd1;
+}
+
+.list {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border: solid 1px #e5ddd1;
+    border-radius: 8px;
+    background-color: #e5ddd1;
+}
+
+.item {
+    --background: #e5ddd1;
+    --border-style: none;
+    border-bottom: solid 1px #948f8d;
+}
+
+.item_last {
+    --background: #e5ddd1;
+    --border-style: none;
+}
+
+.item_top_line {
+    --background: #e5ddd1;
+    --border-style: none;
+    border-top: solid 1px #948f8d;
+}
+
+.label {
+    h2 {
+        display: inline-block;
+    }
+
+    p {
+        display: inline-block;
+        text-align: right;
+        color: black;
+        font-size: 16px;
+        padding: 3px 0;
+    }
+}
+
+.right {
+    text-align: end;
+}
+
+.width_30 {
+    width: 30%;
+}
+
+.width_50 {
+    width: 50%;
+}
+
+.width_70 {
+    width: 70%;
+}
+
+.width_70_right {
+    width: 70%;
+    text-align: end;
+}
+
+.food_order_img {
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+}
+
+.text_center {
+    text-align: center;
+}

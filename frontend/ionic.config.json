@@ -1,0 +1,7 @@
+{
+  "name": "Do Eat",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
